@@ -40,4 +40,4 @@ with open('output_image_text.txt', 'w') as out_file:
 
         out_file.write('\n')
 
-input(f'Done! Output file has file path {os.path.abspath(os.getcwd())}\output_image_text.txt')
+print(f'Done! Output file has file path {os.path.abspath(os.getcwd())}\output_image_text.txt')
