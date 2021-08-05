@@ -2,8 +2,6 @@ import cv2
 from math import gcd, ceil
 import os
 
-
-
 while 1:  
     imgPath = input('Image path: ')
     try:
@@ -33,7 +31,7 @@ Dark_set = '@#%+-. '
 colGrad = tuple(Dark_set)
 interval = 255 / len(colGrad)
 
-with open('outputAscii.txt', 'w') as out_file:
+with open('output_image_text.txt', 'w') as out_file:
     for row in ascii_img:
         for gCol in row:
             for m in range(len(colGrad)):
@@ -42,4 +40,4 @@ with open('outputAscii.txt', 'w') as out_file:
 
         out_file.write('\n')
 
-input(f'Done! Output file has file path {os.path.abspath(os.getcwd())}\outputAscii.txt')
+input(f'Done! Output file has file path {os.path.abspath(os.getcwd())}\output_image_text.txt')
