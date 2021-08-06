@@ -2,12 +2,10 @@ import os
 from math import ceil
 
 
-def func(ht,wt,sz,img):
+def func(height, width, image_size, img):
     ascii_img = []
-    height = ht
-    width = wt
-    image_size = sz
 
+    
     for y in range(0, height, image_size):
         newRow = []
         for x in range(0, width, image_size):
