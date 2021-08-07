@@ -9,7 +9,6 @@
 
 - ```Light_set```: a set of ascii characters for light bg image
 - ```Dark_set```: set for dark bg
-
 # Examples
 
 ![ex2](https://github.com/akshaykalucha3/meme2AsciiArt/blob/master/Examples/example2.png)
