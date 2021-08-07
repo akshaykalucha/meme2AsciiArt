@@ -20,15 +20,15 @@ def func(height, width, image_size, img):
     Light_set = reversed('`",:;Il!i~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$')
     Dark_set = '@#%+-. '
 
-    colGrad = tuple(Dark_set)
-    interval = 255 / len(colGrad)
+    colTup = tuple(Dark_set)
+    interval = 255 / len(colTup)
 
     with open('output_image_text.txt', 'w') as out_file:
         for row in ascii_img:
             for gCol in row:
-                for m in range(len(colGrad)):
+                for m in range(len(colTup)):
                     if interval * m <= gCol <= interval * (m + 1):
-                        out_file.write(colGrad[m] * ceil(width / height))
+                        out_file.write(colTup[m] * ceil(width / height))
 
             out_file.write('\n')
 
