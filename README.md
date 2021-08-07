@@ -11,3 +11,6 @@
 - ```Dark_set```: set for dark bg
 
 # Examples
+
+![ex2](https://github.com/akshaykalucha3/meme2AsciiArt/blob/master/Examples/example2.png)
+![ex1](https://github.com/akshaykalucha3/meme2AsciiArt/blob/master/Examples/example1.png)
